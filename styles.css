@@ -1,0 +1,17 @@
+body{
+    background-color:blueviolet;
+    color:aliceblue;
+    margin: 20px;
+}
+h1{
+    font-family:system-ui;
+    color:orange;
+    border: 2px solid tomato;
+    padding: 10px;
+}
+a:link, a:visited{
+    color:hotpink;
+}
+a:hover{
+    color:yellowgreen;
+}
