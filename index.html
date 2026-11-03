@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 
+<!-- Background images can be added using style="background-image: url(Images/Godard2.jpg);" or in CSS -->
 <body>
 
 <h1><b> Mega HTML File </b></h1>
@@ -145,6 +146,28 @@ I don't fully understand these yet. Needs further research, it looks like it nee
 
 <button onclick="window.scrollTo({top:0, behavior: 'smooth'})">Top of Page!</button>
 
-</body>
+<h2 id="Images"><ins>Images</ins></h2>
 
+<p><img src="Images/GitLogo.png" alt="Github Logo" style="float:left; width: 42px; height: 42px;"> Images can be aligned around text, to the left here</p>
+<br>
+<p><img src="Images/GitLogo.png" alt="Github Logo" style="float:right; width: 42px; height: 42px;"> Images can be aligned around text, to the right here</p>
+
+
+<img src="Images/Godard2.jpg" alt="Godard Joke Image" usemap="#godard" style="width:216px; height:288px;">
+
+<!-- The website 'https://www.image-map.net/' can be used to generate these coords for an image visually -->
+<map name="godard">
+    <area shape="rect" coords="101,63,212,284" alt="Toby LinkedIn" href="https://www.linkedin.com/in/toby-d-morgan/">
+    <area shape="circle" coords="55,81,38" alt="Dad LinkedIn" href="https://www.linkedin.com/in/simon-a-morgan/">
+</map>
+
+<!-- This is ideal when dealing with different screen sizes, mobile, standard, 4k etc. Always add the auto img! -->
+<p>The image below will adjust depending on the width of the browser!</p>
+<picture>
+    <source media="(min-width:1000px)" srcset="Images/ROOP_Icon.png">
+    <source media="(min-width:650px)" srcset="Images/GitLogo.png">
+    <img src="Images/Godard2.jpg" style="width:auto;">
+</picture>
+
+</body>
 </html>
