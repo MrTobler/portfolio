@@ -9,7 +9,6 @@ ICO, PNG, GIF, JPEG and SVG are all supported for favicons. -->
 <head>
 <title>Mega HTML File</title>
 <link rel="stylesheet" href="styles.css">
-
 <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
 </head>
 
@@ -21,68 +20,17 @@ ICO, PNG, GIF, JPEG and SVG are all supported for favicons. -->
 <!-- You can also link to headings of other documents using docname.html#headingname-->
 
 <h2><ins>Contents Section</ins></h2>
-<a href="#TextFormatting"> Text Formatting </a>
+<a href="text-formatting.html#TextFormatting"> Text Formatting </a>
 <br>
 <a href="#ColorElements"> Color Elements </a>
 <br>
 <a href="#Hyperlinks"> Hyperlinks </a>
-
-<h2 id="TextFormatting"><ins> Text Formatting </ins></h2>
-
-<p> Paragraph without special tags</p>
-
-<!--Use <strong> to apply bold and highlight important info the screen readers-->
-<p><b> Paragraph with bold </b></p>
-<!--Use <em> to apply italics and highlight important info the screen readers-->
-<p><i> Paragraph with italics</i></p>
-
-<p><small> Paragraph as small text </small></p>
-<p><del> Paragraph with strikethrough</del></p>
-<p><mark> Paragraph with highlight</mark></p>
-<p><ins> Paragraph with underline</ins></p>
-<p> Paragraph as <sub> subtext </sub></p>
-<p> Paragraph as <sup> supertext</sup></p>
-
-<!--Scaling Font by %-->
-<p style="font-size:200%;"> Paragraph at 200% scale </p>
-<p style="font-size:100%;"> Paragraph at 100% scale </p>
-<p style="font-size:50%;"> Paragraph at 50% scale </p>
-
-<!--Line Break-->
 <br>
+<a href="#Tables"> Tables </a>
 
-<p> A line break can be used mid <br> paragraph!</p>
 
-<!--Line Across-->
-<hr>
 
-<p>Here's a quote from me:</p>
-<blockquote cite="https://tobymorganportfolio.wixsite.com/portfolio">
-Hi! I'm Toby Morgan, A First Class Graduate in Computer Games Design from the University of Staffordshire.
-</blockquote>
 
-<p>Here's a quote from me: <q>yuh.</q></p>
-
-<p>I am learning <abbr title="Hyper Text Markup Language"> HTML</abbr>  so I can build my own website </p>
-
-<address> 
-Written by Toby Morgan. <br>
-Portfolio at: <br>
-tobymorgan.co.uk <br>
-UK, England
-</address>
-
-<p><cite>Mona Lisa</cite> by Leonardo da Vinci. Painted in 1503. </p>
-
-<bdo dir="rtl"> Right to left text! </bdo>
-
-<p>List items can be added using the ul tag,items can be added using the li tag</p>
-
-<ul>
-    <li>Unordered List Item 1</li>
-    <li>Unordered List Item 2</li>
-    <li>Unordered List Item 3</li>
-</ul>
 
 <hr>
 
@@ -125,6 +73,8 @@ Lightness - 0 = black, 100 = white, 50 = base color.
 <p style="background-color:hsla(9, 100%, 64%, 0.5);"> HSLA </p>
 
 <p style="color:rgb(225, 225, 225)"> Grey shades can be made by putting all three inputs as the same number </p>
+
+<hr>
 
 <h2 id="Hyperlinks"><ins>Hyperlinks</ins></h2>
 
@@ -182,6 +132,8 @@ I don't fully understand these yet. Needs further research, it looks like it nee
     <img src="Images/Godard2.jpg" style="width:auto;">
 </picture>
 
+<hr>
+
 <h2 id="Tables"><ins>Tables</ins></h2>
 
 <!-- Tables use table rows (tr), table headers (th), and table cells (td) to display information
@@ -204,6 +156,36 @@ I don't fully understand these yet. Needs further research, it looks like it nee
         <td>CSS</td>
     </tr>
 </table>
+
+<br>
+
+<table style="width:50%">
+    <caption>Game Companies and their Games</caption>
+    <tr>
+        <th>Valve</th>
+        <th>EA</th>
+        <th>Ubisoft</th>
+    </tr>
+    <tr>
+        <td>Half-Life</td>
+        <td>FIFA 24</td>
+        <td>Assassin's Creed</td>
+    </tr>
+    <tr>
+        <td>Portal 2</td>
+        <td>Apex Legends</td>
+        <td>Farcry 6</td>
+    </tr>
+    <tr>
+        <td>Deadlock</td>
+        <td>The Sims 4</td>
+        <td>Watch Dogs 2</td>
+    </tr>
+    <tr>
+        <td>Team Fortress 2</td>
+        <td>NBA 2K24</td>
+        <td>Just Dance</td>
+    </tr>
 
 </body>
 </html>
