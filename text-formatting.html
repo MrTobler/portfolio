@@ -65,6 +65,165 @@ UK, England
     <li>Unordered List Item 3</li>
 </ul>
 
+<h2 id="Tables"><ins>Tables</ins></h2>
+
+<!-- Tables use table rows (tr), table headers (th), and table cells (td) to display information
+    they can be visually styled using CSS -->
+
+<table style="width:50%">
+    <tr>
+        <th>Unreal Engine</th>
+        <th style="width:50%">Unity</th>
+        <th>Web Development</th>
+    </tr>
+    <tr>
+        <td>Blueprint</td>
+        <td>C#</td>
+        <td>HTML</td>
+    </tr>
+    <tr>
+        <td>C++</td>
+        <td>Visual Scripting</td>
+        <td>CSS</td>
+    </tr>
+</table>
+
+<br>
+
+<table style="width:50%">
+    <caption>Game Companies and their Games</caption>
+    <tr>
+        <th>Valve</th>
+        <th>EA</th>
+        <th>Ubisoft</th>
+    </tr>
+    <tr style="height:75px">
+        <td>Half-Life</td>
+        <td>FIFA 24</td>
+        <td>Assassin's Creed</td>
+    </tr>
+    <tr>
+        <td>Portal 2</td>
+        <td>Apex Legends</td>
+        <td>Farcry 6</td>
+    </tr>
+    <tr>
+        <td>Deadlock</td>
+        <td>The Sims 4</td>
+        <td>Watch Dogs 2</td>
+    </tr>
+    <tr>
+        <td>Team Fortress 2</td>
+        <td>NBA 2K24</td>
+        <td>Just Dance</td>
+    </tr>
+</table>
+
+<br>
+
+<!-- Using colspan, cells can cover multiple columns, this can also be done in rows -->
+
+<table style="width:50%">
+    <caption>The 1975 Band Name & Ages</caption>
+    <tr>
+        <th colspan="2">Name</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>Matty</td>
+        <td>Healy</td>
+        <td>37</td>
+    </tr>
+    <tr>
+        <td>Adam</td>
+        <td>Hann</td>
+        <td>38</td>
+    </tr>
+    <tr>
+        <td>George</td>
+        <td>Daniel</td>
+        <td>36</td>
+    </tr>
+    <tr>
+        <td>Ross</td>
+        <td>MacDonald</td>
+        <td>37</td>
+    </tr>
+</table>
+
+<hr>
+
+<h2 id="Lists"><ins>Lists</ins></h2>
+
+<!-- Unordered List -->
+<ul>
+    <li>Malted Milk</li>
+    <li>Bourbon</li>
+    <li>Custard Cream</li>
+</ul>
+
+<!-- Ordered List -->
+<ol type="a" start="50">
+    <li>First Item</li>
+    <li>Second Item</li>
+    <li>Third Item</li>
+</ol>
+
+<!-- Description List -->
+<dl>
+    <dt>HTML</dt>
+    <dd>- Hypertext Markup Language</dd>
+    <dd>- Used to create web pages</dd>
+    <dt>CSS</dt>
+    <dd>- Cascading Style Sheets</dd>
+    <dd>- Used to style web pages</dd>
+    <dt>JS</dt>
+    <dd>- JavaScript</dd>
+    <dd>- Used to add interactivity to web pages</dd>
+</dl>
+
+<hr>
+
+<div style="border: 2px solid orange;">Div elements fill the entire width of their container.</div>
+
+<p><span style="border: 2px solid orange; padding:10px;">Span</span> elements only fill the width of their content.</p>
+
+<!-- Div elements can hold other HTML elements and be styled-->
+
+<div style="background-color: black; border: 2px solid white; padding:20px;">
+    <h2>London</h2>
+    <p>London is the capital city of England. It is the most populous city in the United Kingdom.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, 
+        its history going back to its founding by the Romans, who named it Londinium.</p>
+</div>
+
+<br>
+
+<div style="background-color:blue; border: 2px solid white; padding:20px; width:300px; margin:auto;">
+    <h3>Paris</h3>
+    <p>Paris is the capital and most populous city of France.</p>
+    <p>It has an area of 105 km2 (41 sq mi)</p>
+</div>
+
+<br>
+
+<!-- Using the container class allows CSS to target all child div elements -->
+
+<div class="container">
+    <div style="background-color:tomato;">    
+        <h3>Tokyo</h3>
+        <p>Tokyo is the capital city of Japan.</p>
+    </div>
+    <div style="background-color: teal;">    
+        <h3>London</h3>
+        <p>London is the capital city of England.</p>
+    </div>
+    <div style="background-color:yellowgreen;">    
+        <h3>Paris</h3>
+        <p>Paris is the capital and most populous city of France.</p>
+    </div>
+</div>
+
 <p><a href="index.html">Back to HTML Mega File</a></p>
 
 </body>

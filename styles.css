@@ -23,7 +23,7 @@ a:hover{
 
 td, th {
     /* Colour of outer border */
-  border: 1px solid orange;
+  border: 2px solid orange;
   text-align: left;
   padding: 8px;
 }
@@ -31,4 +31,13 @@ td, th {
 tr:nth-child(even) {
     /* Colour of even rows */
   background-color: orange;
+}
+
+.container {
+    display: flex;
+}
+
+.container div {
+    width: 33%;
+    padding: 8px;
 }

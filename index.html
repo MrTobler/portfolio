@@ -22,11 +22,12 @@ ICO, PNG, GIF, JPEG and SVG are all supported for favicons. -->
 <h2><ins>Contents Section</ins></h2>
 <a href="text-formatting.html#TextFormatting"> Text Formatting </a>
 <br>
+<a href="text-formatting.html#Tables"> Tables </a>
+<br>
 <a href="#ColorElements"> Color Elements </a>
 <br>
 <a href="#Hyperlinks"> Hyperlinks </a>
-<br>
-<a href="#Tables"> Tables </a>
+
 
 
 
@@ -134,58 +135,39 @@ I don't fully understand these yet. Needs further research, it looks like it nee
 
 <hr>
 
-<h2 id="Tables"><ins>Tables</ins></h2>
 
-<!-- Tables use table rows (tr), table headers (th), and table cells (td) to display information
-    they can be visually styled using CSS -->
+<h2 id="Navigation Menu">Navigation Menu</h2>
 
-<table style="width:50%">
-    <tr>
-        <th>Unreal Engine</th>
-        <th>Unity</th>
-        <th>Web Development</th>
-    </tr>
-    <tr>
-        <td>Blueprint</td>
-        <td>C#</td>
-        <td>HTML</td>
-    </tr>
-    <tr>
-        <td>C++</td>
-        <td>Visual Scripting</td>
-        <td>CSS</td>
-    </tr>
-</table>
+<style>
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:rgb(92, 19, 160);
+    }
+    li{
+        float: left;
+    }
+    li a{
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    li a:hover{
+        background-color:rgb(154, 75, 227);
+    }
+</style>
+
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="text-formatting.html">Text Formatting</a></li>
+    <li><a href="yuh.html">Yuh</a></li>
+</ul>
 
 <br>
 
-<table style="width:50%">
-    <caption>Game Companies and their Games</caption>
-    <tr>
-        <th>Valve</th>
-        <th>EA</th>
-        <th>Ubisoft</th>
-    </tr>
-    <tr>
-        <td>Half-Life</td>
-        <td>FIFA 24</td>
-        <td>Assassin's Creed</td>
-    </tr>
-    <tr>
-        <td>Portal 2</td>
-        <td>Apex Legends</td>
-        <td>Farcry 6</td>
-    </tr>
-    <tr>
-        <td>Deadlock</td>
-        <td>The Sims 4</td>
-        <td>Watch Dogs 2</td>
-    </tr>
-    <tr>
-        <td>Team Fortress 2</td>
-        <td>NBA 2K24</td>
-        <td>Just Dance</td>
-    </tr>
 
 </body>
 </html>
