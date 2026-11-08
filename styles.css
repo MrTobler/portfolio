@@ -41,3 +41,14 @@ tr:nth-child(even) {
     width: 33%;
     padding: 8px;
 }
+
+.multi-tag-styling{
+    font-weight:bold;
+    background-color:tomato;
+}
+
+#massive-text{
+    font-weight:bold;
+    font-size:xx-large;
+    text-transform:uppercase;
+}
