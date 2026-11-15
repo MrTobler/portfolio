@@ -7,6 +7,8 @@
 ICO, PNG, GIF, JPEG and SVG are all supported for favicons. -->
 
 <head>
+<meta charset="UTF-8">
+<!-- For other metadata check the lesson! -->
 <title>Mega HTML File</title>
 <link rel="stylesheet" href="styles.css">
 <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
@@ -29,7 +31,8 @@ ICO, PNG, GIF, JPEG and SVG are all supported for favicons. -->
 <a href="#Hyperlinks"> Hyperlinks </a>
 <br>
 <a href="div.html">Div Examples</a>
-
+<br>
+<a href="first-page.html">First Page</a>
 
 
 
@@ -108,9 +111,9 @@ I don't fully understand these yet. Needs further research, it looks like it nee
 
 <!-- Buttons use short pieces of javascript to function, this will need more research for harder tasks! -->
 
-<button onclick="document.location='yuh.html'">Other Document!</button>
+<button class="button" onclick="document.location='yuh.html'">Other Document!</button>
 
-<button onclick="window.scrollTo({top:0, behavior: 'smooth'})">Top of Page!</button>
+<button class="button" onclick="window.scrollTo({top:0, behavior: 'smooth'})">Top of Page!</button>
 
 <h2 id="Images"><ins>Images</ins></h2>
 
@@ -169,6 +172,39 @@ I don't fully understand these yet. Needs further research, it looks like it nee
 </ul>
 
 <br>
+
+<button class="button" onclick="alert('yuh')">Show Alert!</button>
+
+<button class="button" type="button" onclick="document.getElementById('demo').innerHTML = Date()">Show Date!</button>
+<p id="demo"></p>
+
+<p id="js-hello"></p>
+
+<script>
+    document.getElementById("js-hello").innerHTML = "Hello from JavaScript!";
+</script>
+
+<script>
+function textColor(state){
+    if (state == 0) {
+        document.getElementById("js-hello").style.color = "tomato";
+    } else {
+        document.getElementById("js-hello").style.color = "orange";
+    }
+}
+
+</script>
+<!-- The noscript tag is used to display a message if the user has disabled JavaScript 
+ or their browser does not support it -->
+
+<noscript>Sorry, your browser does not support JavaScript.</noscript>
+
+
+<p>
+    <button class="button" type="button" onclick="textColor(0)">tomato</button>
+    <button class="button" type="button" onclick="textColor(1)">orange</button>
+
+</p>
 
 
 </body>
