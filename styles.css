@@ -8,7 +8,7 @@ body{
     margin: 20px;
 }
 h1{
-    font-family:system-ui;
+    /*font-family:system-ui;*/
     color:orange;
     border: 2px solid tomato;
     padding: 10px;
@@ -75,4 +75,29 @@ tr:nth-child(even) {
     background-color:gray;
     color:lightgray;
     cursor:not-allowed;
+}
+
+header {
+    text-align: center;
+    font-style: italic;
+    font-family:Cambria;
+}
+
+.intro-bar{
+    padding: 10px;
+    text-align:center;
+    border: 5px solid tomato;
+}
+
+.intro-bar p{
+    font-size:large;
+    font-family:Cambria;
+    color:hotpink;
+}
+
+.intro-bar h1{
+    font-size:xx-large;
+    font-family:Cambria;
+    color:orange;
+    border:none;
 }

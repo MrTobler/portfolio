@@ -12,12 +12,19 @@ ICO, PNG, GIF, JPEG and SVG are all supported for favicons. -->
 <title>Mega HTML File</title>
 <link rel="stylesheet" href="styles.css">
 <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <!-- Background images can be added using style="background-image: url(Images/Godard2.jpg);" or in CSS -->
 <body>
 
-<h1><b> Mega HTML File </b></h1>
+<div class="intro-bar">
+
+<header><h1>Welcome to my Mega HTML File</h1></header>
+
+<p> This is a project created to allow me to test and reference while learning HTML!</p>
+
+</div>
 
 <!-- You can also link to headings of other documents using docname.html#headingname-->
 
@@ -33,7 +40,8 @@ ICO, PNG, GIF, JPEG and SVG are all supported for favicons. -->
 <a href="div.html">Div Examples</a>
 <br>
 <a href="first-page.html">First Page</a>
-
+<br>
+<a href="/Pages/welcome-test.html">Welcome Test</a>
 
 
 
@@ -138,6 +146,12 @@ I don't fully understand these yet. Needs further research, it looks like it nee
     <img src="Images/Godard2.jpg" style="width:auto;">
 </picture>
 
+<img src="Images/ROOP_Icon.png" style="width:100%">
+<p><i>Image using with 100%, the image will stretch to fill 100% width of the viewport regardless of original size.</i></p>
+
+
+<img src="Images/ROOP_Icon.png" style="max-width:100%;">
+<p><i>Image using max-width (100%), the image will scale up to it's maximum width and no higher, it will scale down.</i></p>
 <hr>
 
 
